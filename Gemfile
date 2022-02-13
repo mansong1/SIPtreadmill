@@ -2,16 +2,16 @@ source 'https://rubygems.org'
 
 ruby '2.2.0'
 
-gem 'rails', '3.2.19'
-gem 'devise'
+gem 'rails', '5.2.6.2'
+gem 'devise', '>= 4.4.2'
 gem 'omniauth', '~> 1.0'
 gem 'omniauth-github', '~> 1.1'
 gem 'haml'
-gem 'simple_form'
+gem 'simple_form', '>= 4.0.0'
 gem 'carrierwave'
 gem 'fog'
 gem 'airbrake'
-gem 'kaminari'
+gem 'kaminari', '>= 0.14.1'
 gem 'bourbon'
 gem 'state_machine'
 gem 'cancan'
@@ -24,8 +24,8 @@ gem 'sinatra', '>= 1.3.0', :require => nil
 gem 'pg'
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails', '~> 5.0.5'
+  gem 'coffee-rails', '~> 4.2.2'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
@@ -35,9 +35,9 @@ group :assets do
   gem 'turbo-sprockets-rails3'
 end
 
-gem 'jquery-rails'
-gem 'jquery-datatables-rails'
-gem 'classy_enum'
+gem 'jquery-rails', '>= 4.0.1'
+gem 'jquery-datatables-rails', '>= 1.11.2'
+gem 'classy_enum', '>= 3.3.1'
 
 gem 'thin'
 
@@ -53,9 +53,9 @@ group :development do
   gem 'pry-rails'
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 2.14.0'
   gem 'guard-rspec'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 4.5.0'
   gem 'database_cleaner', '1.0.1'
   gem 'capybara'
   gem 'poltergeist'
