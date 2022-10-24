@@ -4,8 +4,8 @@ ruby '2.2.0'
 
 gem 'rails', '3.2.19'
 gem 'devise'
-gem 'omniauth', '~> 1.0'
-gem 'omniauth-github', '~> 1.1'
+gem 'omniauth', '~> 1.1', '>= 1.1.4'
+gem 'omniauth-github', '~> 1.1', '>= 1.1.2'
 gem 'haml'
 gem 'simple_form'
 gem 'carrierwave'
@@ -19,13 +19,13 @@ gem 'cancan'
 # Sidekiq and monitoring
 gem 'sidekiq'
 gem 'slim', '>= 1.1.0'
-gem 'sinatra', '>= 1.3.0', :require => nil
+gem 'sinatra', '>= 1.4.3', :require => nil
 
 gem 'pg'
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails', '~> 3.2.6'
+  gem 'coffee-rails', '~> 3.2.2'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
