@@ -2,12 +2,12 @@ source 'https://rubygems.org'
 
 ruby '2.2.0'
 
-gem 'rails', '3.2.19'
+gem 'rails', '4.0.0'
 gem 'devise'
 gem 'omniauth', '~> 1.0'
 gem 'omniauth-github', '~> 1.1'
 gem 'haml'
-gem 'simple_form'
+gem 'simple_form', '>= 3.0.0'
 gem 'carrierwave'
 gem 'fog'
 gem 'airbrake'
@@ -24,8 +24,8 @@ gem 'sinatra', '>= 1.3.0', :require => nil
 gem 'pg'
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails', '~> 4.0.0'
+  gem 'coffee-rails', '~> 4.0.0'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
