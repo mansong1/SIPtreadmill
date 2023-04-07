@@ -17,7 +17,7 @@ gem 'state_machine'
 gem 'cancan'
 
 # Sidekiq and monitoring
-gem 'sidekiq'
+gem 'sidekiq', '>= 7.0.8'
 gem 'slim', '>= 1.1.0'
 gem 'sinatra', '>= 1.3.0', :require => nil
 
