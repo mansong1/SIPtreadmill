@@ -19,7 +19,7 @@ gem 'cancan'
 # Sidekiq and monitoring
 gem 'sidekiq'
 gem 'slim', '>= 1.1.0'
-gem 'sinatra', '>= 1.3.0', :require => nil
+gem 'sinatra', '>= 4.0.0', :require => nil
 
 gem 'pg'
 
