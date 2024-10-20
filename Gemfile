@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.2.0'
 
-gem 'rails', '3.2.19'
+gem 'rails', '6.1.7.9'
 gem 'devise'
 gem 'omniauth', '~> 1.0'
 gem 'omniauth-github', '~> 1.1'
@@ -11,7 +11,7 @@ gem 'simple_form'
 gem 'carrierwave'
 gem 'fog'
 gem 'airbrake'
-gem 'kaminari'
+gem 'kaminari', '>= 1.0.0'
 gem 'bourbon'
 gem 'state_machine'
 gem 'cancan'
@@ -24,7 +24,7 @@ gem 'sinatra', '>= 1.3.0', :require => nil
 gem 'pg'
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails', '~> 6.0.0'
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -37,7 +37,7 @@ end
 
 gem 'jquery-rails'
 gem 'jquery-datatables-rails'
-gem 'classy_enum'
+gem 'classy_enum', '>= 3.4.0'
 
 gem 'thin'
 
