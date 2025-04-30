@@ -53,7 +53,7 @@ group :development do
   gem 'pry-rails'
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'guard-rspec'
   gem 'factory_girl_rails'
   gem 'database_cleaner', '1.0.1'
