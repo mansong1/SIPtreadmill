@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.2.0'
 
-gem 'rails', '3.2.19'
+gem 'rails', '7.1.5.2'
 gem 'devise'
 gem 'omniauth', '~> 1.0'
 gem 'omniauth-github', '~> 1.1'
@@ -37,7 +37,7 @@ end
 
 gem 'jquery-rails'
 gem 'jquery-datatables-rails'
-gem 'classy_enum'
+gem 'classy_enum', '>= 3.3.2'
 
 gem 'thin'
 
